@@ -1,6 +1,13 @@
 # Prologue
 
-We have learned Asymmetric Encryption in RSA part. This module would go through RSA and El-Gamal.
+Lots of PBE schemes, including
+- A Generic PKE Construction
+- Text Book RSA
+- Padding RSA
+- OAEP RSA
+- El-Gamal
+- Cramer-Shoup
+
 
 # Definitions
 
