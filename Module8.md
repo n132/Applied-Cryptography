@@ -1,8 +1,11 @@
 # Prologue
 
-The end of Public Key Encryption
+Public Key Encryption (Some topic not in M7)
 
 Computing over Encrypted Data
+- Homomorphic Encryption
+- Maleable Encryption
+- Full Homomorphic Encryption
 
 # Hybrid Encryption
 runtime efficiency + reduced interaction  == Private-Key Encryption+ Public-Key Encryption
