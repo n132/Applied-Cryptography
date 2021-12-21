@@ -1,6 +1,6 @@
 # Prologue
 
-Lots of PBE schemes, including
+Lots of PKE schemes, including
 - A Generic PKE Construction
 - Text Book RSA
 - Padding RSA

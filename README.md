@@ -5,4 +5,28 @@ So grateful to professor's(**Giovanni Di Crescenzo, Ph.D.**) help. If you are ta
 # Intro
 I'll take the final exam 3 days later and I'll document the important topics(in my view). Also, I'll focus on 7-12, because I have reviewed 1-6 before the mid-term.
 
-  
+# AC all in one
+## Classical Cryptography
+[Module1](./Module1.md)
+## How to build a secure scheme —Public Key Crypto System
+[Module2](./Module2.md)
+## RSA is Secure
+[Module3](./Module3.md)
+## Pseudo-Random & Symmetric Encryption
+[Module4](./Module4.md)
+## Symmetric Encryption & Block Cipher
+[Module5](./Module5.md)
+## Authenticated Encryption
+[Module6](./Module6.md)
+# PKE schemes
+[Module7](./Module7.md)
+# Computing over Encrypted Data
+[Module8](./Module8.md)
+# Digital Signature & Trust Models
+[Module9](./Module9.md)
+# Secure Multi-Party Computation
+[Module10](./Module10.md)
+# ?
+[Module11](./Module11.md)
+# ??
+[Module12](./Module12.md)
