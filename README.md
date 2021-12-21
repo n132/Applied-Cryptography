@@ -32,4 +32,4 @@ I'll take the final exam 3 days later and I'll document the important topics(in 
 
 [Secure Communication](./Module11.md)
 
-[NovelTopics](./Module12.md)
+[Novel Topics](./Module12.md)
