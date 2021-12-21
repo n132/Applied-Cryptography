@@ -30,6 +30,6 @@ I'll take the final exam 3 days later and I'll document the important topics(in 
 
 [Secure Multi-Party Computation](./Module10.md)
 
-[Module11](./Module11.md)
+[Secure Communication](./Module11.md)
 
-[Module12](./Module12.md)
+[NovelTopics](./Module12.md)
