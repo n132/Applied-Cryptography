@@ -1,0 +1,23 @@
+# Symmetric Encryption & Block Cipher
+- Do Symmetric Ciphers based on PRG and PRF satisfy IND, IND-CMA and IND-active-CMA.
+- Block Cipher (understanding "block") from PRP and the security notion of BC.
+- Confusion diffusion propagating  & substitution Permutation multiple rounds & s-box p-box(mixing permutation) and key-schedule; s-box is invertible; avalanche effect 
+- P/S Network(AES), Feistel network(DES)(amazing invention, it can convert a non-invertible function to a invertible function)-> -or -round, -round ? and why? 
+- DES Cryptoanalysis
+    - small round 
+    - known most useful method is exhausting, short block length is DES's weakness(birthday attack) 
+- A failed try of DES
+    - Increasing the key length by using double-F, Triple-F, -ey-Triple-F.
+    - could be attack by Meet in the middle (so dose not satisfy IND)
+- AES(--,-+, best way to attack is also exhausting)
+    - Add(xor) Round Key
+    - SubBytes S-box
+    - ShiftRows Shift
+    - MixColumns linear stransformation
+- Block Cipher analysis
+    - Differential cryptoanalysis 
+    - Linear Cryptoanalysis
+- Modes of BC
+    - ECB(not even satisfies IND)
+    - CBC, OFB, CTR(counter)  all satisfy IND-CMA
+    - Know each one's properties.
