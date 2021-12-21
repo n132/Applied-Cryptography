@@ -1,4 +1,5 @@
 # Prologue
+
 - Secure 2-Party Computation
 - Secure Multi-Party Computation
 
@@ -50,3 +51,34 @@ n parties have inputs $\{X_1,...X_n\}$, They want to perform fcuntion f over the
 ## Solutions
 
 ![Solutions](./MPC_Solutions.png)
+
+# Secret Sharing
+
+Informal Definition:
+
+n parties want to share a secret and only a subset of these n parties could recover it.
+
+## Constructions
+
+we have `n` parties and we need `t+1` parties to recover the secret `s`.
+
+* t=0
+  * Everyone's share is `s`
+* t=n-1
+  * generate `n-1` random numbers $\{r_1,r_2,...,r_{n-1}\}$
+  * the last share = $r_1 \oplus r_2 \oplus ... r_{n-1}\oplus s$
+* n-1>t>0
+  * Shamir's Schem
+  * only T+1 shares could confirm a unique T-degree polynomial
+
+# BGW Protocol
+
+- I don't understand the details and don't want to understand!
+
+# Circuit Compilers
+
+That's a interesting topic, it tries to convert original representation algorithm to an intermediate representation. (Boolean circuit)
+
+This part is an unfinished part of my SMC project. If I have enough time, I want to have a try!
+
+More info: https://marsella.github.io/static/mpcsok.pdf
