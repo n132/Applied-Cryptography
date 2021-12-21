@@ -5,7 +5,7 @@
 
 # Secure 2-Party Computation
 
-![SMC](./SMC.png)
+![SMC](./Figures/SMC.png)
 
 ## Problem(informal)
 A and B want to perform a fucntion f on their data. And they don't want others to know their data.
@@ -50,7 +50,7 @@ n parties have inputs $\{X_1,...X_n\}$, They want to perform fcuntion f over the
 
 ## Solutions
 
-![Solutions](./MPC_Solutions.png)
+![Solutions](./Figures/MPC_Solutions.png)
 
 # Secret Sharing
 

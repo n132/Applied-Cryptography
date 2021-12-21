@@ -32,7 +32,7 @@ Extentially Unforgeable under CPA
 Universal Forgeable
 - There is an effient algorithm to forge signature for all the messages
 
-![Signature Shcmes](./Sig.png)
+![Signature Shcmes](./Figures/Sig.png)
 
 
 # Text Book RSA

@@ -93,7 +93,7 @@ where $f_m(x) = x + m_1, f_c(x)= x\quad o\quad E(pk, m_1 )$
 # Additional Public-Key Encryption Schemes
 In this section, the professor introduces lots of PKE schemes. I don't understand every scheme in depth but know the properties of them.
 
-![1](./HE.png)
+![1](./Figures/HE.png)
 ## Goldwasser-Micali Encryption
 * Hard Problem/Assumption: Based on `quadratic residue`
 * Message space `{0,1}`
@@ -122,7 +122,7 @@ A `fully-homomorphic encryption` scheme is a public-key cryptosystem that is **b
 of such arithmetic circuits(+,*).
 > A known result from complexity theory says that any polynomial-time computation can be expressed in terms of Boolean circuits (i.e., with circuit gates being a XOR or an AND)
 
-![FHE](./FHE.png)
+![FHE](./Figures/FHE.png)
 
 ## Gentry Encryption
 * Make FHE possible by "A somewhat homomorphic" + "boostrapping" 
