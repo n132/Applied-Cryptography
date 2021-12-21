@@ -1,0 +1,19 @@
+- Algorithmic number theory
+  - GCD (trial division, Euclidean)
+  - Inverse of Group (Extend Euclidean)
+  - Exponentiation (grade school, SaM)
+  - Group, group exponentiation (inverse→ g**cd ==1 mod n)→ permutation
+  - Zn* (why desirable), |Zn*| → Euler's totient function
+- Number theory and cryptography
+  - Choose a random prime is easy + Check if a number is a prime is easy
+  - Factoring no easy 
+- Crypto scheme candidate RSA!
+  - reduction (prove if Factoring pq is hard, RSA is secure)
+  - RSA → OW function , Factoring → Weak OW function (RSA to Factoring, NPC to NP. ← this is just a idea for understanding)
+  - RSA → Trapdoor + Permutation 
+  - OWF → Hard-Core → g(x,r)=(f(x),r) → So, RSA could generate a hard core by the same method.
+  - All the 4 key points (OWF, Trapdoor, permutation, and Hard-core) are corresponding to the 4 points in Lecture2. Due to reduction, we could conclude, if RSA is hard, RSA is secure.
+- Tips
+  - key length 2048 is safe now
+  - RSA is different from Factoring. RSA is factoring n=pq, pq are same-length-prime 
+  - If you understand these three courses you will find Euclidean, Euler, Shannon YYDS.
